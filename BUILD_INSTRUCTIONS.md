@@ -23,7 +23,7 @@
   yarn run dist-mac-unsigned
   ```
 
-* Locate your deployed application at `release/Pomodoro Logger-0.6.3-arm64.dmg`.
+* Locate your deployed application at `release/Pomodoro Logger-<version>-arm64.dmg`.
 
 ## What We Installed
 
