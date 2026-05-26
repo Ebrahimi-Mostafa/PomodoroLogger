@@ -129,3 +129,15 @@ I'd love to see you're involved! Read [the Contribution Guide](./.github/CONTRIB
 [GPL-3.0 License](./LICENSE)
 
 Copyright © 2019 Zixuan Chen.
+
+# Fork — Changes in this Repository
+
+This repository is a forked and actively maintained copy of the original project. Below are the important changes I made:
+
+- **Added macOS Apple Silicon export**: I built and verified a native Apple Silicon (arm64) macOS package.
+- **Build instructions & cleanup**: Added `BUILD_INSTRUCTIONS.md` with reproducible steps to build the `.dmg` locally on macOS and commands to uninstall those host dependencies if you want to remove this project later.
+
+Notes:
+- I have tested and produced the export specifically for macOS with Apple Silicon (M chips). While I only verified this version, you should still be able to generate exports for other operating systems.
+- I intentionally did not modify the original README content — this section only documents fork-specific changes.
+
