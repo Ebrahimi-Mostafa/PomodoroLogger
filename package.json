@@ -22,6 +22,8 @@
         "pack": "npm run build && electron-builder --dir",
         "dist-win": "npm run build && electron-builder --windows -p onTagOrDraft",
         "dist-mac": "npm run build && electron-builder --mac -p onTagOrDraft",
+        "dist-mac-unsigned": "cross-env CSC_IDENTITY_AUTO_DISCOVERY=false SKIP_NOTARIZE=1 electron-builder --mac --arm64 -p never",
+        "dist-mac-unsigned:build": "npm run build && npm run dist-mac-unsigned",
         "dist-linux": "npm run build && electron-builder --linux -p onTagOrDraft",
         "dist-all": "npm run build && electron-builder -mwl",
         "postinstall": "electron-builder install-app-deps",
@@ -44,7 +46,7 @@
         ]
     },
     "build": {
-        "afterSign": "electron-builder-notarize",
+        "afterSign": "scripts/notarize.js",
         "productName": "Pomodoro Logger",
         "appId": "com.github.rem2016.pomodoro-logger",
         "publish": {
