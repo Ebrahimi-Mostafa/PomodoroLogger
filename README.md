@@ -34,7 +34,7 @@
 - Use [Pomodoro Technique](https://en.wikipedia.org/wiki/Pomodoro_Technique) to manage your time
 - Collect and visualize your desktop working activities, i.e., the names and titles of the using apps, **locally**
 - Use integrated Kanban Board to make your schedule control easier
-- Analyse your efficiency
+- Analyze your efficiency
 
 ## Pomodoro Technique :tomato:
 
@@ -116,7 +116,7 @@ I'd love to see you're involved! Read [the Contribution Guide](./.github/CONTRIB
 | **Estimate Your Time Spent**| **Search Your Cards**|
 | <img src="https://i.postimg.cc/HxRzScHp/todo.png" height="256"/>|  <img src="https://i.postimg.cc/CLBKZf97/search-Card.gif" height="256"/>|
 
-| **Visulization**|
+| **Visualization**|
 |:-|
 | <img src="https://i.postimg.cc/CKH5hT9V/vis.png" width="512"/>|
 | <img src="https://i.postimg.cc/d150CRqH/vis1.png" width="512"/>|
